@@ -35,26 +35,19 @@ p {
 }
 
 .g, .d {
+    text-align: center;
     padding: 20px 5px;
 } 
 
 
-.f {
+.f, .b {
+    text-align: center;
     padding: 20px 10px;
 }
 
-.last {
-    padding: 50px 100px 50px 50px;
+@media (max-width: 1300px) {
+    .media {
+        text-align: center;
+        position: static;
+    }
 }
-
-@viewport {
-    width: device-width;
-    zoom: 1;
-}
-
-@-ms-viewport {
-    width: device-width;
-}
-/* .facebook {
-    text-align: center;
-} */
